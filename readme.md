@@ -29,6 +29,8 @@ For the graph version you would need to run the following
 
 The graph version take in one positional argument and that is `<input file>` and it will output both the .dot file for the graphs and a png with all the graphs generated from each line
 
+Alternatively you can run the `make` command to build both versions, `make interpreter` just for the interpreter version, `make graph` just for the graph version. `make clean` removes all the generated files.
+
 # Specs/Syntax
 
 Like I said the syntax is relatively simple being quite similar to C/C++ syntax
